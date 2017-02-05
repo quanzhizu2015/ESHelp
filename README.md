@@ -12,7 +12,7 @@ pod "ESHelp"
 
 ## Author
 
-Andrew, anluanlu123@163.com
+quanzhizu2015, quanzhizu2005@126.com
 
 ## License
 
