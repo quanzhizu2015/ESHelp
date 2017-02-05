@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name                 = "ESHelp"
-  s.version              = "1.1.0"
+  s.version              = "1.2.0"
   s.summary              = "integrate APNs rapidly"
   s.homepage             = "https://github.com/quanzhizu2015/ESHelp"
   s.license              = { :type => "MIT", :file => "LICENSE" }
@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.platform             = :ios, "7.0"
   s.source               = { :git => "https://github.com/quanzhizu2015/ESHelp.git", :tag => s.version }
   s.source_files          = "ESHelp/*"
+  s.public_header_files = 'ESHelp/**/*.h'
   s.requires_arc         = true
 
 end
